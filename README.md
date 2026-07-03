@@ -1,5 +1,7 @@
 # LUMINEX Portfolio
 
+[![CI](https://github.com/biliahfater-sys/luminex/actions/workflows/ci.yml/badge.svg)](https://github.com/biliahfater-sys/luminex/actions/workflows/ci.yml)
+
 Демонстрационный сайт вымышленной дизайн-студии **LUMINEX** — статическая работа для
 портфолио. Реального бэкенда, базы данных и сбора персональных данных нет: форма обратной
 связи работает в демо-режиме и никуда не отправляет данные.
@@ -31,6 +33,10 @@ npm run lint      # ESLint
 как под-страницу в другой сайт-портфолио. Сервер не требуется.
 
 Маршрутизация — на `HashRouter`, поэтому работает с любого пути без серверных rewrite-правил.
+
+## CI
+
+При каждом push в `main` GitHub Actions запускает `npm ci`, `npm run lint` и `npm run build`.
 
 ## Правовое (152-ФЗ)
 
