@@ -1,0 +1,19 @@
+node_modules
+dist
+.DS_Store
+
+# backend data
+data/
+.env
+.env*.local
+
+# local tooling and QA artifacts
+.claude/
+.playwright-mcp/
+screenshot-*.png
+screenshots.cjs
+*.log
+
+# IDE
+.vscode/
+.idea/

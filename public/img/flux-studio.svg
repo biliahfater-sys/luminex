@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#100c26"/><stop offset="1" stop-color="#0a0719"/>
+    </linearGradient>
+    <linearGradient id="n1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="n2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e879f9"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="n3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fcd34d"/><stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="90"/></filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="600" cy="700" r="320" fill="#d946ef" opacity="0.15" filter="url(#blur)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-40 620 C260 540 420 660 620 560 C820 460 980 560 1240 440" stroke="url(#n1)" stroke-width="14" opacity="0.9"/>
+    <path d="M-40 620 C260 540 420 660 620 560 C820 460 980 560 1240 440" stroke="url(#n1)" stroke-width="14" filter="url(#glow)" opacity="0.5"/>
+    <path d="M-40 460 C220 420 480 520 700 400 C900 290 1040 360 1240 280" stroke="url(#n2)" stroke-width="18" opacity="0.95"/>
+    <path d="M-40 460 C220 420 480 520 700 400 C900 290 1040 360 1240 280" stroke="url(#n2)" stroke-width="18" filter="url(#glow)" opacity="0.55"/>
+    <path d="M-40 300 C300 260 420 360 660 240 C880 130 1020 220 1240 130" stroke="url(#n3)" stroke-width="10" opacity="0.85"/>
+    <path d="M-40 300 C300 260 420 360 660 240 C880 130 1020 220 1240 130" stroke="url(#n3)" stroke-width="10" filter="url(#glow)" opacity="0.45"/>
+  </g>
+  <text x="84" y="130" font-family="sans-serif" font-weight="bold" font-size="64" fill="#ffffff" letter-spacing="-2">FLUX</text>
+  <text x="248" y="130" font-family="sans-serif" font-size="64" fill="none" stroke="#e879f9" stroke-width="2" letter-spacing="-2" font-weight="bold">FLUX</text>
+  <text x="84" y="170" font-family="monospace" font-size="22" fill="#b8b3e0">KINETIC IDENTITY · GENERATIVE CAMPAIGN</text>
+  <text x="84" y="690" font-family="monospace" font-size="24" fill="#b8b3e0">30K WAITLIST IN 72 HOURS</text>
+</svg>

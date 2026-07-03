@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13102e"/><stop offset="1" stop-color="#0a0719"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="980" cy="180" r="240" fill="#ec4899" opacity="0.16" filter="url(#blur)"/>
+  <circle cx="160" cy="600" r="210" fill="#8b5cf6" opacity="0.2" filter="url(#blur)"/>
+  <!-- phone -->
+  <g transform="translate(720 90) rotate(6)">
+    <rect width="290" height="580" rx="44" fill="#161029" stroke="#ffffff" stroke-opacity="0.14" stroke-width="3"/>
+    <rect x="18" y="18" width="254" height="544" rx="32" fill="#0d0a1d"/>
+    <rect x="100" y="34" width="90" height="22" rx="11" fill="#161029"/>
+    <text x="42" y="120" font-family="sans-serif" font-weight="bold" font-size="28" fill="#ffffff">Heart rate</text>
+    <text x="42" y="186" font-family="sans-serif" font-weight="bold" font-size="56" fill="#f472b6">72</text>
+    <text x="118" y="186" font-family="monospace" font-size="22" fill="#b8b3e0">bpm</text>
+    <path d="M42 260 h40 l16 -30 l22 56 l18 -40 l12 22 h96" stroke="url(#pulse)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="42" y="320" width="206" height="64" rx="14" fill="#1d1738"/>
+    <text x="58" y="350" font-family="sans-serif" font-size="18" fill="#ffffff">Sleep · 7h 40m</text>
+    <text x="58" y="372" font-family="monospace" font-size="14" fill="#34d399">+12% vs avg</text>
+    <rect x="42" y="398" width="206" height="64" rx="14" fill="#1d1738"/>
+    <text x="58" y="428" font-family="sans-serif" font-size="18" fill="#ffffff">Steps · 9,412</text>
+    <text x="58" y="450" font-family="monospace" font-size="14" fill="#b8b3e0">goal 10,000</text>
+    <rect x="42" y="486" width="206" height="52" rx="26" fill="url(#pulse)"/>
+    <text x="74" y="519" font-family="sans-serif" font-weight="bold" font-size="20" fill="#0a0719">Book a doctor</text>
+  </g>
+  <!-- big ECG line -->
+  <path d="M60 470 h180 l34 -64 l48 120 l40 -88 l26 46 h200 l30 -56 l44 104 l36 -76 l22 38 h120" stroke="url(#pulse)" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M60 470 h180 l34 -64 l48 120 l40 -88 l26 46 h200 l30 -56 l44 104 l36 -76 l22 38 h120" stroke="#f472b6" stroke-width="7" fill="none" filter="url(#glow)" opacity="0.5"/>
+  <text x="64" y="660" font-family="monospace" font-size="24" fill="#b8b3e0">PULSE · TELEMEDICINE · 200K DOWNLOADS</text>
+</svg>
